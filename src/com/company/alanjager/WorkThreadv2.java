@@ -3,7 +3,7 @@ package com.company.alanjager;
 /**
  * Created by AlanJager on 2017/1/24.
  */
-public class WorkThread extends Thread {
+public class WorkThreadv2 extends Thread {
 
     Task task;
 
