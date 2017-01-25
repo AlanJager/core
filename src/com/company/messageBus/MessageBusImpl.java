@@ -30,7 +30,7 @@ public class MessageBusImpl implements MessageBus{
     }
 
     @Override
-    public void send(Message message, MessageCallBack messageCallBack) {
+    public void send(NeedReplyMessage needReplyMessage, MessageCallBack messageCallBack) {
 
     }
 

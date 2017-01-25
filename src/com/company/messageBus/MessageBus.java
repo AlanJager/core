@@ -6,7 +6,7 @@ package com.company.messageBus;
 public interface MessageBus {
     public void send(Message message);
 
-    public void send(Message message, MessageCallBack messageCallBack);
+    public void send(NeedReplyMessage needReplyMessage, MessageCallBack messageCallBack);
 
     public String receive();
 }
