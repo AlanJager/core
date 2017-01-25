@@ -1,7 +1,7 @@
 package com.company.messageBus;
 
 /**
- * Created by zouye on 2017/1/25.
+ * Created by AlanJager on 2017/1/25.
  */
 public class NeedReplyMessage {
     private int timeout;
