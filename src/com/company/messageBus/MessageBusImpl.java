@@ -31,7 +31,7 @@ public class MessageBusImpl implements MessageBus{
             Channel channel = channelPool.get();
             channel.queueDeclare(QUEUE_NAME, false, false, false, null);
             channel.basicPublish("", QUEUE_NAME, null, message.getMessage().getBytes());
-            System.out.println(" [x] Sent '" + message + "'");
+            System.out.println(" [x] Sent '" + message.getMessage() + "'");
 
             channelPool.returnChannel(channel);
         } catch (IOException e) {
