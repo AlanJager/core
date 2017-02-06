@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.List;
 
 /**
- * Created by zouye on 2017/1/24.
+ * Created by AlanJager on 2017/1/24.
  */
 public class ThreadPool {
     private static int worker_num = 5;
